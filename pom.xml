@@ -39,6 +39,12 @@
             <version>2.8.5</version>
         </dependency>
         <dependency>
+            <groupId>org.jetbrains.exposed</groupId>
+            <artifactId>exposed</artifactId>
+            <version>0.11.2</version>
+            <!--<type>pom</type>-->
+        </dependency>
+        <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-test-junit</artifactId>
             <version>${kotlin.version}</version>
@@ -80,5 +86,14 @@
             </plugin>
         </plugins>
     </build>
-
+    <repositories>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>bintray-kotlin-exposed</id>
+            <name>bintray</name>
+            <url>https://dl.bintray.com/kotlin/exposed</url>
+        </repository>
+    </repositories>
 </project>

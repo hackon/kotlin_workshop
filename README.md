@@ -15,3 +15,7 @@ Borrow code from:
 
 Coding Kata ideas:
 - http://codingdojo.org/kata/
+
+Good reading
+- https://github.com/jetbrains/kotlin-workshop
+
